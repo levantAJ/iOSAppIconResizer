@@ -44,4 +44,7 @@ magick convert $1 -resize 152x152\> icon76@2x.png
 echo "${GREEN}Converting icons for iPad Pro (12.9 inch) App"
 magick convert $1 -resize 167x167\> icon83.5@2x.png
 
+echo "${GREEN}Converting icon for App Store iOS"
+magick convert $1 -resize 1024x1024\> icon1024.png
+
 echo "${GREEN}Done!!!"
